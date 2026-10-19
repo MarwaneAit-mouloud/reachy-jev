@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-19",
+  "commande": "1 canette de San Pellegrino",
+  "resolution": [
+    1280,
+    720
+  ],
+  "modeles": {
+    "Jev 1.14": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "ok": 8
+      },
+      "capture_mediane_ms": 10.7,
+      "encodage_mediane_ms": 11.1,
+      "inference_mediane_ms": 272.9,
+      "inference_max_ms": 440.7,
+      "reponse_vocale_mediane_s": 1.8,
+      "total_median_s": 2.09,
+      "image_ko": 73.0,
+      "tokens_entree_median": 1985.0,
+      "cout_moyen_usd": 8.333e-05,
+      "inference_ms_par_cycle": [
+        351,
+        256,
+        273,
+        315,
+        260,
+        441,
+        272,
+        273
+      ],
+      "erreurs_detail": []
+    },
+    "GPT-6 Luna Decisions": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "ok": 8
+      },
+      "capture_mediane_ms": 10.6,
+      "encodage_mediane_ms": 11.1,
+      "inference_mediane_ms": 394.5,
+      "inference_max_ms": 543.5,
+      "reponse_vocale_mediane_s": 1.8,
+      "total_median_s": 2.22,
+      "image_ko": 71.8,
+      "tokens_entree_median": 901.0,
+      "cout_moyen_usd": 9.01e-05,
+      "inference_ms_par_cycle": [
+        404,
+        453,
+        392,
+        271,
+        293,
+        273,
+        543,
+        397
+      ],
+      "erreurs_detail": []
+    },
+    "GPT-6 Luna (génératif)": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "ok": 8
+      },
+      "capture_mediane_ms": 8.8,
+      "encodage_mediane_ms": 10.4,
+      "inference_mediane_ms": 6152.6,
+      "inference_max_ms": 8572.2,
+      "reponse_vocale_mediane_s": 1.8,
+      "total_median_s": 7.97,
+      "image_ko": 71.3,
+      "tokens_entree_median": 882.0,
+      "cout_moyen_usd": 0.0001162,
+      "inference_ms_par_cycle": [
+        3736,
+        6163,
+        5992,
+        6504,
+        8572,
+        6602,
+        6142,
+        6117
+      ],
+      "erreurs_detail": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+[project]
+name = "reachy-jev"
+version = "0.2.0"
+description = "Reachy Mini contrôle des commandes (photo + texte) : Jev contre le modèle de décision d'OpenAI et un LLM génératif, latence et coût"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "httpx>=0.28",
+    "matplotlib>=3.9",
+    "numpy>=2.4.6",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.0",
+    "reachy-mini>=1.8.3,<1.9",
+    "scipy>=1.15.3",
+    "soundfile>=0.14.0",
+]
+
+[project.scripts]
+reachy-jev = "reachy_jev.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/reachy_jev"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.8",
+]
+# Pour le notebook d'apprentissage (non publié) : uv sync --group notebook
+notebook = [
+    "ipykernel>=6.29",
+    "typesafe-sdk>=0.7.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # caractères typographiques français (« », ’, espaces fines) voulus

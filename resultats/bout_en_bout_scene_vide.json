@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-19",
+  "commande": "1 canette de Coca-Cola",
+  "resolution": [
+    1280,
+    720
+  ],
+  "modeles": {
+    "Jev 1.14": {
+      "cycles": 8,
+      "erreurs": 0,
+      "capture_mediane_ms": 12.6,
+      "encodage_mediane_ms": 11.0,
+      "inference_mediane_ms": 359.1,
+      "inference_max_ms": 461.5,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 2.58,
+      "image_ko": 69.7,
+      "tokens_entree_median": 1982.0,
+      "cout_moyen_usd": 8.324e-05,
+      "inference_ms_par_cycle": [
+        415,
+        301,
+        398,
+        462,
+        401,
+        302,
+        304,
+        320
+      ],
+      "erreurs_detail": []
+    },
+    "GPT-6 Luna Decisions": {
+      "cycles": 8,
+      "erreurs": 5,
+      "capture_mediane_ms": 13.8,
+      "encodage_mediane_ms": 10.8,
+      "inference_mediane_ms": 399.5,
+      "inference_max_ms": 421.0,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 2.62,
+      "image_ko": 71.3,
+      "tokens_entree_median": 899,
+      "cout_moyen_usd": 8.99e-05,
+      "inference_ms_par_cycle": [
+        459,
+        344,
+        257,
+        316,
+        432,
+        421,
+        426,
+        400
+      ],
+      "erreurs_detail": [
+        "Erreur HTTP 502 : OpenAI refused to answer question \"etat\"."
+      ]
+    },
+    "GPT-6 Luna (génératif)": {
+      "cycles": 8,
+      "erreurs": 0,
+      "capture_mediane_ms": 10.1,
+      "encodage_mediane_ms": 10.9,
+      "inference_mediane_ms": 7424.7,
+      "inference_max_ms": 8835.1,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 9.65,
+      "image_ko": 71.3,
+      "tokens_entree_median": 880.0,
+      "cout_moyen_usd": 0.00014581,
+      "inference_ms_par_cycle": [
+        8052,
+        8835,
+        4163,
+        8480,
+        7028,
+        7821,
+        6680,
+        5749
+      ],
+      "erreurs_detail": []
+    }
+  }
+}

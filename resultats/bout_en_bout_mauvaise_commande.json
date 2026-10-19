@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-19",
+  "commande": "1 canette de Coca-Cola",
+  "resolution": [
+    1280,
+    720
+  ],
+  "modeles": {
+    "Jev 1.14": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "mauvais_produit": 8
+      },
+      "capture_mediane_ms": 9.9,
+      "encodage_mediane_ms": 11.9,
+      "inference_mediane_ms": 352.1,
+      "inference_max_ms": 427.1,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 2.57,
+      "image_ko": 73.0,
+      "tokens_entree_median": 1982.0,
+      "cout_moyen_usd": 8.321e-05,
+      "inference_ms_par_cycle": [
+        337,
+        285,
+        427,
+        367,
+        290,
+        399,
+        375,
+        333
+      ],
+      "erreurs_detail": []
+    },
+    "GPT-6 Luna Decisions": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "mauvais_produit": 8
+      },
+      "capture_mediane_ms": 9.1,
+      "encodage_mediane_ms": 10.9,
+      "inference_mediane_ms": 426.0,
+      "inference_max_ms": 814.4,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 2.65,
+      "image_ko": 74.0,
+      "tokens_entree_median": 899.0,
+      "cout_moyen_usd": 8.99e-05,
+      "inference_ms_par_cycle": [
+        253,
+        394,
+        814,
+        495,
+        290,
+        422,
+        644,
+        430
+      ],
+      "erreurs_detail": []
+    },
+    "GPT-6 Luna (génératif)": {
+      "cycles": 8,
+      "erreurs": 0,
+      "reactions": {
+        "mauvais_produit": 8
+      },
+      "capture_mediane_ms": 6.1,
+      "encodage_mediane_ms": 10.7,
+      "inference_mediane_ms": 7893.4,
+      "inference_max_ms": 9046.8,
+      "reponse_vocale_mediane_s": 2.2,
+      "total_median_s": 10.11,
+      "image_ko": 73.1,
+      "tokens_entree_median": 880.0,
+      "cout_moyen_usd": 0.00011156,
+      "inference_ms_par_cycle": [
+        8655,
+        8954,
+        7364,
+        9047,
+        5975,
+        6993,
+        5807,
+        8423
+      ],
+      "erreurs_detail": []
+    }
+  }
+}

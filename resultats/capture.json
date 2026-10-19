@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "images": 20,
+  "resolution": [
+    1280,
+    720
+  ],
+  "premiere_image_ms": 13.7,
+  "capture_mediane_ms": 22.5,
+  "capture_max_ms": 26.1,
+  "preparation_mediane_ms": 10.4
+}

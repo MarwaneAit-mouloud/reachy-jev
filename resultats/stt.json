@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-19",
+  "modele": "google/gemini-2.5-flash-lite",
+  "voix": "macOS « Jacques »",
+  "phrases": [
+    {
+      "texte": "J'ai une canette de Diet Sierra Mist, impeccable.",
+      "transcription": "J'ai une canette de diésel armiste, impeccable.",
+      "similarite": 0.87,
+      "duree_audio_s": 2.93,
+      "latence_ms": 1012,
+      "cout_usd": 3.03e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Voilà une canette de Sprite, elle est neuve.",
+      "transcription": "Voilà une canette de Sprite, elle est neuve.",
+      "similarite": 1.0,
+      "duree_audio_s": 2.69,
+      "latence_ms": 820,
+      "cout_usd": 2.91e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Une canette de Pepsi Max, en parfait état.",
+      "transcription": "une canette de Pepsi Max en parfait état",
+      "similarite": 1.0,
+      "duree_audio_s": 2.78,
+      "latence_ms": 849,
+      "cout_usd": 2.79e-05,
+      "erreur": null
+    },
+    {
+      "texte": "C'est une canette de Coca-Cola, rien à signaler.",
+      "transcription": "C'est une canette de Coca-Cola, rien à signaler.",
+      "similarite": 1.0,
+      "duree_audio_s": 3.04,
+      "latence_ms": 919,
+      "cout_usd": 3.78e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Une canette de Fanta Orange, ouverte mais pas déformée.",
+      "transcription": "une canette de fontaine orange ouverte mais pas de forme",
+      "similarite": 0.936,
+      "duree_audio_s": 3.36,
+      "latence_ms": 1096,
+      "cout_usd": 3.66e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Une canette de Coca-Cola, complètement aplatie.",
+      "transcription": "Un canette de Coca-Cola complètement aplatie.",
+      "similarite": 0.989,
+      "duree_audio_s": 3.13,
+      "latence_ms": 829,
+      "cout_usd": 3.62e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Un Coca-Cola, la canette est toute froissée.",
+      "transcription": "Allez Coca-Cola, la canette est toute propre.",
+      "similarite": 0.824,
+      "duree_audio_s": 2.85,
+      "latence_ms": 1196,
+      "cout_usd": 2.95e-05,
+      "erreur": null
+    },
+    {
+      "texte": "Une vieille canette de Pepsi, bien cabossée.",
+      "transcription": "Une vieille canne de pépé, vieille comme le monde.",
+      "similarite": 0.689,
+      "duree_audio_s": 2.78,
+      "latence_ms": 1163,
+      "cout_usd": 2.99e-05,
+      "erreur": null
+    }
+  ],
+  "latence_mediane_ms": 966,
+  "duree_audio_mediane_s": 2.89,
+  "transcriptions_exactes": 4,
+  "cout_moyen_usd": 3.21625e-05
+}

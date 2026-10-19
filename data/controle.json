@@ -1,0 +1,31 @@
+{
+  "description": "Chaque photo est contrôlée deux fois : avec la bonne ligne de commande, puis avec une mauvaise. etat_photo = l'état réel de l'article (intact = forme normale ; abime = cabossé, écrasé, déformé, déchiré). Variante texte : la photo est remplacée par la phrase du préparateur ci-dessous.",
+  "descriptions": {
+    "sierra_mist.jpg": "J'ai une canette de Diet Sierra Mist, impeccable.",
+    "sprite.jpg": "Voilà une canette de Sprite, elle est neuve.",
+    "pepsi_max.jpg": "Une canette de Pepsi Max, en parfait état.",
+    "coca_cola.jpg": "C'est une canette de Coca-Cola, rien à signaler.",
+    "fanta.jpg": "Une canette de Fanta Orange, ouverte mais pas déformée.",
+    "coca_ecrasee_1.jpg": "Une canette de Coca-Cola, complètement aplatie.",
+    "coca_ecrasee_2.jpg": "Un Coca-Cola, la canette est toute froissée.",
+    "pepsi_abimee.jpg": "Une vieille canette de Pepsi, bien cabossée."
+  },
+  "cas": [
+    {"photo": "sierra_mist.jpg", "commande": "1 canette de Diet Sierra Mist", "attendu": "ok", "etat_photo": "intact"},
+    {"photo": "sierra_mist.jpg", "commande": "1 canette de Sprite", "attendu": "mauvais_produit", "etat_photo": "intact"},
+    {"photo": "sprite.jpg", "commande": "1 canette de Sprite", "attendu": "ok", "etat_photo": "intact"},
+    {"photo": "sprite.jpg", "commande": "1 canette de Diet Sierra Mist", "attendu": "mauvais_produit", "etat_photo": "intact"},
+    {"photo": "pepsi_max.jpg", "commande": "1 canette de Pepsi Max", "attendu": "ok", "etat_photo": "intact"},
+    {"photo": "pepsi_max.jpg", "commande": "1 canette de Coca-Cola", "attendu": "mauvais_produit", "etat_photo": "intact"},
+    {"photo": "coca_cola.jpg", "commande": "1 canette de Coca-Cola", "attendu": "ok", "etat_photo": "intact"},
+    {"photo": "coca_cola.jpg", "commande": "1 canette de Pepsi", "attendu": "mauvais_produit", "etat_photo": "intact"},
+    {"photo": "fanta.jpg", "commande": "1 canette de Fanta Orange", "attendu": "ok", "etat_photo": "intact"},
+    {"photo": "fanta.jpg", "commande": "1 canette d'Orangina", "attendu": "mauvais_produit", "etat_photo": "intact"},
+    {"photo": "coca_ecrasee_1.jpg", "commande": "1 canette de Coca-Cola", "attendu": "abime", "etat_photo": "abime"},
+    {"photo": "coca_ecrasee_1.jpg", "commande": "1 canette de Pepsi", "attendu": "mauvais_produit", "etat_photo": "abime"},
+    {"photo": "coca_ecrasee_2.jpg", "commande": "1 canette de Coca-Cola", "attendu": "abime", "etat_photo": "abime"},
+    {"photo": "coca_ecrasee_2.jpg", "commande": "1 canette de Fanta Orange", "attendu": "mauvais_produit", "etat_photo": "abime"},
+    {"photo": "pepsi_abimee.jpg", "commande": "1 canette de Pepsi", "attendu": "abime", "etat_photo": "abime"},
+    {"photo": "pepsi_abimee.jpg", "commande": "1 canette de Coca-Cola", "attendu": "mauvais_produit", "etat_photo": "abime"}
+  ]
+}

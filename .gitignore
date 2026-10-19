@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# Voix synthétisées : régénérables.
+.cache/
+# Les résultats du banc (CSV, graphique, post rempli) sont COMMITÉS volontairement :
+# ce sont les chiffres publiés, n'importe qui peut les vérifier.
+# Notebooks d'apprentissage personnels : pas dans le dépôt.
+notebooks/
